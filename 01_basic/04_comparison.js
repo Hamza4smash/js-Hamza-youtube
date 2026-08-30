@@ -11,4 +11,4 @@
 //avoid these conversion as they are very confusing and can lead to bugs in your code   
 // ===
 
-console.log("2" === 2);
+// console.log("2" === 2);
