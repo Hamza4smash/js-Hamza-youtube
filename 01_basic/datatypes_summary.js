@@ -11,7 +11,7 @@ let playerName;
 const id= Symbol("123")
 const otherId= Symbol("123")
 
-console.log(id ===otherId);
+// console.log(id ===otherId);
 
 // const largeNumber= 34232352353253545432n
 
@@ -34,4 +34,28 @@ const myFunction= function(){
     console.log("Hello World");
 }
 
-console.log(typeof legends);
+// console.log(typeof legends);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//stack (primitive), heap(non-primitive)
+
+let myYoutubename= "hamzakhandotcom"
+
+let anotherName=myYoutubename
+anotherName="khushdil"
+
+// console.log(anotherName);
+// console.log(myYoutubename);
+
+let userFirst={
+    email:"hamza@google.com",
+    upi:"hamza@ybl"
+}
+
+let userSecond=userFirst
+
+userSecond.email="khushdil@google.com"
+
+console.log(userFirst.email);
+console.log(userSecond.email);
+
