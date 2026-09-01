@@ -52,7 +52,32 @@ const user=[
 
 user[1].email
 // console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
+// console.log(Object.values(tinderUser));                              
 // console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+// ************************************destructuring objects************************************
+const course={
+    courseName:"js in hindi",
+    coursePrice:999,
+    courseInstructor:"Hamza Khan",
+}
+
+const {courseInstructor:instructor} = course
+
+// course.courseInstructor
+
+
+console.log(instructor);
+
+// {
+//     "name":"Hamza",
+//     "coursename":"js in hindi",
+//     "price":"999",
+//     "courseInstructor":"Hamza Khan"
+    
+// }
+
+
